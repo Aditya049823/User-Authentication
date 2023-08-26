@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenticate User</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="div1">
+            <p class="primary">Authentication</p>
+        </div>
+        <div class="div2">
+            <button class="secondary">SignUp</h1>
+            <button class="secondary">Profile</h1>
+        </div>
+    </div>
+    <div class="signUpDetails" id="signUp">
+        <h1>SignUp</h1>
+        <form action="./script.js" method="get">
+            <input type="text" id="userName" placeholder="Full Name" required><br>
+            <input type="text" id="email" placeholder="EmailId" required><br>
+            <input type="password" id="password" placeholder="Password" required><br>
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+        </form>
+        <button id="btn" onclick="signUp(event)">SignUp</button>
+    </div>
+    <div id="userDetails">
+        
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

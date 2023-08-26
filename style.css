@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-color: #000;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    border-bottom: 1px solid grey;
+}
+.div1{
+    flex: 1;
+    color:#8F8F8F;
+    font-size: 24px;
+}
+.div2{
+    display: flex;
+    gap:10px;
+}
+.div2 button{
+    color:#8F8F8F;
+    background-color: #000; /* Setting a fallback color */
+    opacity: 1; /* Adjust the opacity as needed */
+    border: none; /* Removing the border */
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.signUpDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signUpDetails h1{
+    color:white;
+    font-size: 46px;
+    padding: 15px;
+}
+.signUpDetails input{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+    font-size: 40px;
+    background-color: #000;
+    border: none;
+    border-bottom: 1px solid grey;
+    color: #8F8F8F;
+}
+#btn{
+    margin:25px;
+    font-size:40px;
+    padding:15px;
+    background-color:white;
+    border:1px solid grey;
+    color:#8F8F8F
+}
+
+#userDetails{
+    margin:5px;
+    padding:3px;
+    font-size: 30px;
+    color:white;
+}
+#btn2{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 28px;
+}
